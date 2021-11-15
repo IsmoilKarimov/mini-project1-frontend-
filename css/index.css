@@ -1,0 +1,341 @@
+
+body,h1,h2,h3,h4,p,li,a {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.clr {
+    clear: both;
+}
+
+.inputs {
+    background-color: #fff;
+    width: 600px;
+    height: 32px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.inputs-2 {
+    background-color: #EBEEF0;
+    width: 500px;
+    height: 32px;
+    border-radius: 5px;
+    padding-top: 16px;
+    padding-left: 20px;
+
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+   /*-------- header --------*/
+#header {
+   margin: 7rem;
+   height: 47vh;
+}
+
+#header .head-window {
+     width: 50%;
+     margin: 0;
+     float: left;
+}
+
+#header .head-window h2 {
+    font-size: 40px;
+    letter-spacing: 2.5px;
+    font-family: sans-serif;
+
+}
+#header .head-window .title {
+    color: #555;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding:20px 0;
+}
+
+#header .head-window .window {
+   background-color: #F4F7FC;
+   padding: 15px;
+   width: 55%;
+   border-radius: 5px;
+}
+
+#header .head-window .window .box{
+    float: left;
+    width: 50%;
+}
+
+#header .head-window .window img {
+    width: 85%;
+    border-radius: 3px;    
+}
+
+#header .head-window .window p{
+    font-size: 16px;
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#header .head-window .window .box .letter{
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+#header .head-window .window .box p:hover{
+    color:#BFBFC0;
+} 
+
+#header .head-window img {
+    border-radius: 10px;
+    box-shadow:-1px 3px 10px -2px rgba(0,0,0,0.2),
+                2px 0px 12px 1px rgba(0,0,0,0.1);
+}
+
+  /*------- placeholder ------- */
+
+#placeholders{
+    background-color: #F4F7FC;
+    font-family: sans-serif;
+    padding: 4rem 0;
+}
+#placeholders h2 {
+    font-size: 35px;
+    text-align: center;
+    padding:20px 0;
+
+}
+#placeholders p {
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 0;
+    width: 534px;
+    margin-left: 17.5rem;
+    line-height: 20px;
+    
+}
+
+.inputs {
+    margin: auto;
+}
+.inputs a {
+    text-decoration: none;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    color: #386BF3;
+    font-weight: 100;
+}
+
+.inputs a:hover {
+    color: #BFBFC0;
+}
+ 
+  /*--------- main > section > header ---------*/
+section #header h4 {
+    font-size: 25px;
+    font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+section #header p {
+    font-family: sans-serif;
+    padding: 15px 0;
+
+}
+
+section #header .text-success {
+    background-color:#EBEEF0 ;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+section #header .inputs-2 a {
+    color: #386BF3;
+    font-weight: 100;
+    text-decoration: none;
+    font-family:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+section #header .inputs-2 a:hover {
+    color: #BFBFC0;
+}
+
+section #header a {
+    text-decoration: none;
+    color: #386BF3;
+}
+
+section #header a:hover {
+    color: #BFBFC0;
+}
+
+
+  /*------ Section:nth(child-2) > header */
+
+section:nth-child(2) #header .head-window {
+    /* margin: 3rem 0; */
+}
+
+section:nth-child(2) #header .head-window p {
+    line-height: 24px;
+}
+
+section {
+    margin: 12rem 0;
+}
+
+section:nth-child(4) #header .head-window p {
+    line-height: 24px;
+}
+
+aside section #header p {
+    padding: 3px 0;
+}
+
+aside section #header .random {
+    line-height: 25px;
+}
+
+aside section #header .inputs-2 {
+    margin: 15px 0 25px 0px;
+}
+
+aside section {
+    padding-bottom: 5rem;
+}
+
+aside .shadow {
+    box-shadow:0px 0.5px 2px 0px rgb(0,0,0,0.7);
+    margin-right: 50px;
+    border-radius: 5px;
+    padding: 20px 0;
+    margin-top: 20px;
+   
+}
+
+section:nth-child(2) #header .head-window p {
+    line-height: 12px;
+    font-size: 14px;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+section:nth-child(2) #header .head-window .qavs{
+    padding-left: 20px;
+}
+
+section:nth-child(2) #header .head-window .jingalak-qavs {
+    padding-left: 50px;
+}
+
+section:nth-child(2) #header .head-window .bosh-joy {
+    padding-left: 80px;
+}
+
+section:nth-child(3) #header .head-window p {
+    line-height: 12px;
+    font-size: 14px;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+section:nth-child(3) #header .head-window .qavs{
+    padding-left: 20px;
+}
+
+section:nth-child(3) #header .head-window .bosh-joy {
+    padding-left: 80px;
+}
+
+aside .shadow-2 {
+    box-shadow:0px 0.5px 2px 0px rgb(0,0,0,0.7);
+    margin-left: 50px;
+    border-radius: 5px;
+    padding: 20px 0;
+    margin-top: 20px;
+   
+}    
+aside section:nth-child(2), section:nth-child(3){
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-major{
+    text-align: center;
+    background-color: #000000;
+    padding: 6rem;
+}
+
+footer .footer-major .logo-1 , .logo-2 {
+    color: #fff;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+footer .footer-major .logo-1:hover , .logo-2:hover {
+    color: #999994 ;
+    cursor: pointer;
+}
+
+footer .footer-major .logo-1 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+footer .footer-major .logo-2 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+footer .footer-major p , footer .footer-major .link {
+    color: #CCCCBF;
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+footer .footer-major p {
+    color: #999994;
+    
+}
+
+footer .footer-major .link:hover{
+    color: #999994;
+}
+
+footer .footer-major .fas {
+    font-size: 25px;
+    margin-right: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
